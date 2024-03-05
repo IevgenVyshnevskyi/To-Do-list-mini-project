@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+   <title>Todo list</title>
+   <link rel="stylesheet" type="text/css" href="./style/style.css" />
+</head>
+
+<body>
+   <div class="container">
+      <header>
+         <h1>Create your Todo-List</h1>
+         <form action="" id="task_form">
+            <input type="text" id="task_input" placeholder="What are your task for today?">
+            <input type="submit" value="Add" class="task_submit">
+
+            <button class="task_submit" onclick="buttonSortClick('abc')">Sort abc</button>
+            <button class="task_submit" onclick="buttonSortClick('date')">Sort date</button>
+
+         </form>
+      </header>
+      <main>
+         <section class="task_list">
+            <div id="tasks">
+
+            </div>
+         </section>
+      </main>
+   </div>
+   <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
